@@ -1,8 +1,20 @@
-env
-local
-backup
+env/*
+!env/.gitkeep
+
+local/*
+!local/.gitkeep
+
+backup/*
+!backup/.gitkeep
+
+vhosts/*
+!vhosts/.gitkeep
+
+vendor 
+
 *.env
 *.sql
 *.tar.gz
 *.zip
+
 

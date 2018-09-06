@@ -18,7 +18,7 @@ services:
     image: masterforweb/php-fpm-plus
     restart: always
     volumes:  
-      - ~/vhosts:/vhosts 
+      - ./vhosts:/vhosts 
 
   mysql:
     image: mariadb:latest
