@@ -4,6 +4,9 @@ git clone https://github.com/masterforweb/aklemp.git
 # add folder vhosts
 mkdir ~/vhosts
 
+# add folder backup
+mkdir ./backup
+
 # add mysql root password
 cd ~/aklemp
 mkdir local/env/mysql.env:
