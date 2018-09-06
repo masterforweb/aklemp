@@ -1,11 +1,13 @@
 # aklemp
 git clone https://github.com/masterforweb/aklemp.git
 
-# add folder vhosts
-mkdir ~/vhosts
+# folder vhosts
+cd vhosts;
+clone projects
+
 
 # add folder backup
-mkdir ./backup
+cd backup
 
 # add mysql root password
 cd ~/aklemp
