@@ -11,7 +11,7 @@ vhosts/*
 !vhosts/.gitkeep
 
 conf.d/*
-!vhosts/.gitkeep
+!conf.d/.gitkeep
 
 vendor 
 
