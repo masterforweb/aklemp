@@ -10,6 +10,9 @@ backup/*
 vhosts/*
 !vhosts/.gitkeep
 
+conf.d/*
+!vhosts/.gitkeep
+
 vendor 
 
 *.env

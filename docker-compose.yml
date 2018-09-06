@@ -8,9 +8,9 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./local/nginx/conf.d:/etc/nginx/conf.d
+      - ./conf.d:/etc/nginx/conf.d
       - ./config/nginx/snippets:/nginx/snippets
-      - ~/vhosts:/vhosts   
+      - ./vhosts:/vhosts   
     logging:
       driver: "json-file"
 
