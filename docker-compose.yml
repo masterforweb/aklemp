@@ -27,7 +27,7 @@ services:
       - ./env/mysql.env
     volumes:  
       - data:/var/lib/mysql 
-      - ~/backup:/var/backup
+      - ./backup:/var/backup
       - ./config/mysql/my.cnf:/etc/mysql/my.cnf
 
   phpmyadmin:

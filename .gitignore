@@ -1,5 +1,6 @@
 env
 local
+backup
 *.env
 *.sql
 *.tar.gz
