@@ -15,9 +15,10 @@ conf.d/*
 
 backup/*
 !backup/.gitkeep
-!backup/sql/.gitkeep
+!backup/sql
 
 backup/sql/*
+!backup/sql/.gitkeep
 
 vendor 
 
