@@ -13,6 +13,12 @@ vhosts/*
 conf.d/*
 !conf.d/.gitkeep
 
+backup/*
+!backup/.gitkeep
+!backup/sql/.gitkeep
+
+backup/sql/*
+
 vendor 
 
 *.env
